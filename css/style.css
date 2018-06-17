@@ -1,0 +1,78 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #eee;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #0098e1;
+}
+
+h2 {
+    font-size: 28px;
+    color: #7092be;
+}
+
+h3 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.container {
+    width: 75vw;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.stat-header {
+    background-color: #aaa;
+    font-weight: bold;
+    font-size: 18px;
+    color: #55f;
+}
+
+.stat-name {
+    width: 30%;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+.stat-value {
+    width: 35%;
+    background-color: #ccc;
+    font-style: italic;
+}
+
+.stat-value-greyed {
+    width: 35%;
+    background-color: #bbb;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100vw;
+    }
+}
